@@ -1,2 +1,1 @@
-My first repository
-Learning Git is going well so far
+this is the third line
