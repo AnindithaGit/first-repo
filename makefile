@@ -1,9 +1,11 @@
-all: readme.md
-readme.md: guessing.sh
-		echo "Peer graded assignment: Bash, Make, Git and GitHub"> readme.md
-		echo "Project created on:">> readme.md
-		date>>readme.md
-		echo "Number of lines in the script:">>readme.md
-		grep -c guessing.sh>>readme.md
+all: README.md
+
+README.md: guessing.sh
+	echo "Peer-graded assignment:Bash, Make, Git and GitHub">README.md
+	echo -n "\n Made on date:">>README.md
+	date>>README.md
+	echo -n "\n Number of lines:">>README.md
+	grep -c '' guessing.sh>>README.md
+
 clean:
-	rm readme.md
+	rm README.md
