@@ -1,5 +1,5 @@
 readme.md:
-		echo "# Peer graded assignment: Bash, Make, Git and GitHub"> readme.md
+		echo "Peer graded assignment: Bash, Make, Git and GitHub"> readme.md
 		echo " ">> readme.md
 		echo "Guessing game">> readme.md
 		echo " ">> readme.md
