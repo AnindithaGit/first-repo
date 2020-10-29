@@ -6,4 +6,5 @@ readme.md:
 		echo "Project created on:">> readme.md
 		date>>readme.md
 		echo " ">> readme.md
-		echo "The Guessing game script contains $$(wc -l guessing.sh|egrep -o"[0-9]+") lines>>readme.md
+		echo "Number of lines in the script:">>readme.md
+		grep -c guessing.sh>>readme.md
